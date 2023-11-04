@@ -52,3 +52,30 @@ const myfunction = function(){
     console.log("Hello World");
 }
 // myfunction(); => Object Function
+
+
+
+
+// ******************************************
+
+// Stack(Primitive) & Heap(Non-Primitive) Memory
+
+let myName = 'Talha Sayed'
+
+let myPetName = myName
+myPetName = 'Izharoddin'
+
+// console.log(myName);
+// console.log(myPetName);
+
+let userOne = {
+    email: "talha@gmail.com",
+    id: "ybl@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "talha@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
